@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "salah-reminder",
-    "slug": "salah-reminder",
+    "name": "My Salah Reminder",
+    "slug": "my-salah-reminder",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/sense-logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.faintblack.salahreminder"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be76c439-d817-478a-900f-5bdac4b47edf"
+      }
     }
   }
 }
